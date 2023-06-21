@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: rgb(105, 62, 180);
+}
+
+.login-box {
+    position: absolute;
+    bottom: 300px;
+    right: 250px;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 380px;
+    height: 440px;
+    background: #F1F1EC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+.title {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #221E32;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 28px;
+
+}
+
+.login-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label {
+    text-align: start;
+    margin-bottom: 10px;
+}
+
+.input-box {
+    padding: 0 15px;
+    width: 318px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.login-button {
+    width: 254.4px;
+    height: 50px;
+    background: #8540FD;
+    box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 28px;
+}
+
+.design {
+    width: 358px;
+    height: 40px;
+    font-family: 'Outfit';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #F1F1EC;
+    margin-top: 110px;
+}
